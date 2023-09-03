@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('quizzes', QuizController::class);
+Route::resource('quiz', QuizController::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
